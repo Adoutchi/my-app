@@ -1,21 +1,7 @@
 <script>
-    import Module from './Module.svelte'
-    import Foot from './Foot.svelte'
+    import MainPage from './MainPage.svelte'
 </script>
 
-<h1>Test tah les fous</h1>
-
-<h2> C'est parti pour faire peut etre quelque chose</h2>
-
-<Module />
-
-<footer>
-    <Foot />
-</footer>
+<MainPage />
 
 
-
-
-<style>
-
-</style>
