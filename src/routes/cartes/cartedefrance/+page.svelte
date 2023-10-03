@@ -1,0 +1,1 @@
+<p>La carte de FR t'as capté</p>

@@ -21,8 +21,8 @@
 
 <style>
     #Twitter{
-        height: 50px;
-        width: 56.75px;
+        height: 25px;
+        width: 28.4px;
     }
 
     #footpage{
@@ -30,10 +30,7 @@
         color: rgb(216, 80, 75);
         position: absolute; 
         bottom: 0%;
-        left:0;
-        margin: 0;
-        width: 100%;
-        overflow: hidden;
+        width: 100%;   
     }
 
     table{
