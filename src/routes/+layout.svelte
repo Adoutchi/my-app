@@ -1,6 +1,8 @@
-
+     <!--mettre les fonctions ici-->
 <script>
     import Foot from './Foot.svelte'
+
+   
 </script>
 
 <div id="bandeauAccueil"> 
@@ -39,6 +41,7 @@
     }
 -->
 
+
 <style>
 
     #bandeauAccueil{
@@ -60,11 +63,6 @@
         top: 0%;
         padding-left : 250px;
         position: absolute;
-    }
-
-    p{
-        text-align: center;
-        font-size: 25px;
     }
 
     th{
