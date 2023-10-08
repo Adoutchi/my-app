@@ -22,25 +22,9 @@ export async function GetIdPays(id) {
 
 export async function GetTablePays() {
   const req = (await sql `SELECT * FROM pays`).rows;
+  console.log(req);
   return req;
 }
 
-console.log(await GetTablePays());
-
-/*
-export const GetTablePays = async () => {
-  return sql `SELECT * FROM pays`;
-}
-*/
-
-
-/**
- * @param {number} number
- */
-export function NumberCarre(number) {
-  return number * number;
-}
-
-
-//console.log(GetPays("France"));
+console.log(GetTablePays());
 

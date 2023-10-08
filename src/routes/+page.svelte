@@ -1,7 +1,15 @@
 <script>
-    import MainPage from './MainPage.svelte'
+
+    export let data;
+    console.log(data["values"]+"page");
+
 </script>
 
-<MainPage />
+<div>
+    <p>Il était une fois, l'histoire de la création de la monnaie.</p>
 
+    <p>{data["values"][0].taille}</p>
+
+
+</div>
 
